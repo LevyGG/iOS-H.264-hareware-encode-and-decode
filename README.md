@@ -50,7 +50,7 @@ You can get that file(test.h264) after those steps from iTunes:device->"thisDemo
 
 Refred:
 
-https://github.com/stevenyao/iOSHardwareDecoder （decompress）
+https://github.com/stevenyao/iOSHardwareDecoder （decode）
 
-https://github.com/manishganvir/iOS-h264Hw-Toolbox （compress）
+https://github.com/manishganvir/iOS-h264Hw-Toolbox （encode）
 
