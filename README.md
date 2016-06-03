@@ -34,17 +34,23 @@ https://github.com/stevenyao/iOSHardwareDecoder （解码）
 https://github.com/manishganvir/iOS-h264Hw-Toolbox （编码）
 
 This demo use Video Toolbox to encode/decode H264 video stream.
+
 Compressing into H264,and decompress for CVPixelbuffer ,using OpenGL to display.
 The video source come from camera. Recommending use landscape mode for this demo.(I do it on my ipad :)
 
 1.Tap "start" button to begin capture video and decode video stream into H.264 format and save a file named:"test.h264"(file stream, raw H.264. Or you can save it as "xxx.mov"\"xxx.txt" whatever you want) in sanbox at the same time;
+
 2.Tap "stop" button for stop capturing and stop encoding;
+
 3.Tap "play" button to replay the video you just record in sanbox(decode H.264 stream).
+
 4.Tap "Stop" button to stop decode.
 
 You can get that file(test.h264) after those steps from iTunes:device->"thisDemo"->file shareing. Change the file subffix to ".mov". Drag into MPlayerX can play. 
 
 Refred:
+
 https://github.com/stevenyao/iOSHardwareDecoder （decompress）
+
 https://github.com/manishganvir/iOS-h264Hw-Toolbox （compress）
 
