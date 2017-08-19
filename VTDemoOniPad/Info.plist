@@ -38,5 +38,7 @@
 	</array>
 	<key>UIFileSharingEnabled</key>
 	<true/>
+	<key>NSCameraUsageDescription</key>
+	<string>  </string>
 </dict>
 </plist>
