@@ -16,6 +16,7 @@
 		25BAEF801CDC449300D43A42 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 25BAEF7B1CDC449300D43A42 /* Info.plist */; };
 		25BAEF811CDC449300D43A42 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7C1CDC449300D43A42 /* main.m */; };
 		25BAEF821CDC449300D43A42 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25BAEF7E1CDC449300D43A42 /* ViewController.m */; };
+		BF500D502330D57D0068D2B9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF500D4F2330D57D0068D2B9 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		25BAEF7C1CDC449300D43A42 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		25BAEF7D1CDC449300D43A42 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		25BAEF7E1CDC449300D43A42 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BF500D4F2330D57D0068D2B9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = "H264 Encode and Decode/Images.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 		2575C6081CCE03EF00160B73 = {
 			isa = PBXGroup;
 			children = (
+				BF500D4F2330D57D0068D2B9 /* Images.xcassets */,
 				2572B9161CCF3A620062BD02 /* MediaPlayer.framework */,
 				2575C6131CCE03EF00160B73 /* VTDemoOniPad */,
 				2575C6121CCE03EF00160B73 /* Products */,
@@ -141,7 +144,7 @@
 				TargetAttributes = {
 					2575C6101CCE03EF00160B73 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = N46VGUZVN4;
+						DevelopmentTeam = 4985RR987S;
 					};
 				};
 			};
@@ -150,6 +153,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -169,6 +173,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				25BAEF741CDC446E00D43A42 /* LaunchScreen.storyboard in Resources */,
+				BF500D502330D57D0068D2B9 /* Images.xcassets in Resources */,
 				25BAEF751CDC446E00D43A42 /* Main.storyboard in Resources */,
 				25BAEF801CDC449300D43A42 /* Info.plist in Resources */,
 			);
@@ -298,11 +303,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N46VGUZVN4;
+				DEVELOPMENT_TEAM = 4985RR987S;
 				INFOPLIST_FILE = VTDemoOniPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AJB.VTDemoOniPad;
+				PRODUCT_BUNDLE_IDENTIFIER = LevyGG.VTDemoOniPad;
 				PRODUCT_NAME = "H264 Encode and Decode";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -312,11 +317,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = N46VGUZVN4;
+				DEVELOPMENT_TEAM = 4985RR987S;
 				INFOPLIST_FILE = VTDemoOniPad/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = AJB.VTDemoOniPad;
+				PRODUCT_BUNDLE_IDENTIFIER = LevyGG.VTDemoOniPad;
 				PRODUCT_NAME = "H264 Encode and Decode";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
